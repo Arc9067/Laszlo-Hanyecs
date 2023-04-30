@@ -17,6 +17,7 @@
   --body-bg: #881e2a;
   /*===== Fuente y tipografia =====*/
   --body-font: "Roboto", sans-serif;
+  --Akira: "Akira Expanded";
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
@@ -95,11 +96,74 @@ img {
 }
 
 /*===== CLASS CSS ===== */
-h1.title {
+header {
+  width: 100%;
+  background-color: #ffc32c;
+  padding-block: 15px;
+  position: absolute;
+  top: 0;
+}
+header a.title {
+  font-style: normal;
   font-weight: 800;
-  font-size: 64px;
+  font-size: 22px;
   line-height: 120%;
-  /* or 77px */
-  font-family: "Akira Expanded";
-  text-align: center !important;
+  color: #ffffff;
+  font-family: var(--Akira), sans-serif;
+  color: #881e2a;
+}
+header a.btn {
+  padding: 12px 32px;
+  font-family: var(--Akira), sans-serif;
+  color: #ffc32c;
+  border-radius: 20px;
+}
+
+#hero {
+  min-height: 100vh;
+  width: 100%;
+  padding-block: 100px;
+  background: url(../images/bg.png) center center no-repeat;
+  background-size: cover;
+}
+#hero .row {
+  outline: 3px solid #ffc32c;
+  outline-offset: 8px;
+  background-color: #ffc32c;
+  color: #881e2a;
+}
+#hero h1.title {
+  font-family: var(--Akira), sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 120%;
+}
+@media (max-width: 700px) {
+  #hero h1.title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 400px) {
+  #hero h1.title {
+    font-size: 35px;
+  }
+}
+#hero p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+#hero a.btn {
+  padding: 15px 32px;
+  background-color: var(--body-bg);
+  font-family: var(--Akira);
+  border-radius: 0px;
+  color: #ffc32c;
+}
+#hero a:hover {
+  background-color: var(--body-bg);
+  border: 3px solid #ffc32c;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
