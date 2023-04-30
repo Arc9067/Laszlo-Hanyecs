@@ -190,4 +190,23 @@ header a.btn {
   -webkit-text-stroke-color: #000;
   stroke: #000;
   text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+#swap {
+  width: 100%;
+  padding-block: 50px;
+}
+#swap h1.title {
+  font-family: var(--Akira), sans-serif;
+  letter-spacing: 0.2rem;
+  color: #ffc32c;
+  font-size: 47.83px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1.2em;
+  -webkit-text-stroke-width: 1px;
+  stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  stroke: #000;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
 }/*# sourceMappingURL=style.css.map */
