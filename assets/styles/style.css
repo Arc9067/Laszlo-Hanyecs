@@ -120,7 +120,6 @@ header a.btn {
 }
 
 #hero {
-  min-height: 100vh;
   width: 100%;
   padding-block: 100px;
   background: url(../images/bg.png) center center no-repeat;
@@ -166,4 +165,29 @@ header a.btn {
   background-color: var(--body-bg);
   border: 3px solid #ffc32c;
   color: #fff;
+}
+
+#tk {
+  width: 100%;
+  padding-block: 50px;
+}
+#tk .inner {
+  height: 200px;
+  width: 100%;
+  border-radius: 20px;
+  border: 3px solid #ffc32c;
+}
+#tk .inner h1.title {
+  font-family: var(--Akira), sans-serif;
+  letter-spacing: 0.2rem;
+  color: #ffc32c;
+  font-size: 47.83px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1.2em;
+  -webkit-text-stroke-width: 1px;
+  stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  stroke: #000;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
 }/*# sourceMappingURL=style.css.map */
